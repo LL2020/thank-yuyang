@@ -20,7 +20,7 @@
      ];
     NSString *yy = @"于洋";
     NSString *y = @"洋";
-    NSString *yyy = [NSString stringWithFormat:@"%@%@",y,z];
+    NSString *yyy = [NSString stringWithFormat:@"%@%@",yy,y];
     NSLog(@"yuyang====%@",yyy);
     // Do any additional setup after loading the view, typically from a nib.
 }
