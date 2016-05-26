@@ -16,6 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor purpleColor]
+     ];
+    NSString *y = @"于";
+    NSString *z = @"洋";
+    NSString *yy = [NSString stringWithFormat:@"%@%@",y,z];
+    NSLog(@"yuyang====%@",yy);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
